@@ -63,8 +63,8 @@ var rnApk = {
    * @param {String} packageName - Package's name of the application.
    * @return {Boolean} Returns true if the app has been uninstalled.
    */
-  uninstallApp: function(packageName) {
-    return RNAPK.uninstallApp(packageName);
+  uninstallApp: function(packageName, cb) {
+    return RNAPK.uninstallApp(packageName, cb);
   },
 
   /**
